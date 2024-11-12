@@ -1,0 +1,195 @@
+.background {
+    background-color:#1F1F1F;
+    color:#FFFFFF;
+}
+
+.heading-image {
+    line-height: 200px;
+    vertical-align: middle;
+    width: 2em;
+    padding-right: 1%;
+}
+
+.headerlink {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.headerlink:visited {
+    color: #FFFFFF;
+}
+
+.headerlink:link {
+    color: #FFFFFF;
+}
+
+.noto-sans-regular {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+header {
+    display: inline;
+    width: 75%;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    margin: 1% auto 1% auto;
+    font-size: min(2vw,0.75em);
+}
+
+.searchbar {
+    border-radius: 20em;
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 0.5em 0.5em 0.5em 1em;
+    background-color: #3F4444;
+    border: #FFFFFF 3px solid;
+    color: #FFFFFF;
+    display: block;
+}
+
+.searchbardiv {
+    width:100%;
+}
+
+.searchbar::placeholder {
+    color: #DBDDDF;
+}
+
+.bookcontainer {
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 2.5em;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.bookcontainer:hover {
+    overflow-x: auto;
+    margin-bottom: -15px;
+}
+
+.bookcontainerheader {
+    padding: 0em 1.5em 0em 1.5em;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 2.5em;
+    white-space: nowrap;
+}
+
+.bookimage {
+    width: 6em;
+    height: 9em;
+    display: inline-block;
+    border: 3px solid #FFFFFF;
+    margin: 0 0.5em 0 0;
+}
+
+.bookimage:hover {
+    filter: brightness(0.75);
+}
+
+.bookimage:active {
+    filter: brightness(0.4);
+}
+
+.booklink {
+    text-decoration: none;
+}
+
+.bookpreviewcontainer {
+    height: 10em;
+    width: min(75%,18em);
+    font-size: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.bookpreviewright {
+    padding-left: 0.5em;
+    padding-top: 5%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1.bookpreview {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+h2.bookpreview {
+    font-size: 2vw;
+    font-weight: normal;
+    color: #DBDDDF;
+}
+h3.bookpreview {
+    font-size: 1.5vw;
+    font-weight: lighter;
+    color: #DBDDDF;
+}
+
+img.bookpreview {
+    width: 50%;
+    border: 3px solid #FFFFFF;
+}
+
+button.bookpreview {
+    border-radius: 20em;
+    font-size: 2.5vw;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #3F4444;
+    border: #FFFFFF 3px solid;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+button.bookpreview:hover {
+    background-color: #303030;
+}
+
+button.bookpreview:active {
+    background-color: #1F1F1F;
+}
+
+#bigbutton {
+    font-size: 3vw;
+    background-color: #FFDD00;
+    border: none;
+    color: #000000;
+    display: block;
+}
+
+#bigbutton:hover {
+    background-color: #bba40c;
+}
+
+#bigbutton:active {
+    background-color: #75670c;
+}
+
+#success {
+    font-size: 4.5vw;
+    text-align: center;
+    margin: auto;
+}
+
+#duedate {
+    font-size: 3vw;
+    text-align: center;
+    color: #FFDD00;
+}
+
+footer {
+    height: 5em;
+}
